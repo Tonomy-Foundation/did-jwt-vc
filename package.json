@@ -10,11 +10,7 @@
   "types": "./lib/index.d.ts",
   "umd:main": "./lib/index.umd.js",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
-  "np": {
-    "contents": "lib"
+    "access": "public"
   },
   "files": [
     "lib",
@@ -39,12 +35,14 @@
   },
   "author": "mi-xu",
   "contributors": [
-    "Mircea Nistor <mircea.nistor@mesh.xyz>"
+    "Mircea Nistor <mircea.nistor@mesh.xyz>",
+    "Jack Tanner <jack@tonomy.foundation>",
+    "Rebal Alhaqash <rebal@tonomy.foundation>"
   ],
   "license": "ISC",
   "dependencies": {
-    "did-jwt": "file:../did-jwt",
-    "did-resolver": "file:../did-resolver"
+    "@tonomy/did-jwt": "^6.9.0",
+    "@tonomy/did-resolver": "^4.0.4"
   },
   "repository": {
     "type": "git",

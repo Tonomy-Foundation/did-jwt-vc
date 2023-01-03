@@ -92,7 +92,7 @@ Create a `Resolver` using [did-resolver](https://github.com/decentralized-identi
 it is necessary to resolve its DID Document to check for keys that can validate the signature.
 
 ```typescript
-import { Resolver } from 'did-resolver'
+import { Resolver } from '@tonomy/did-resolver'
 import { getResolver } from 'ethr-did-resolver'
 
 // see also https://github.com/decentralized-identity/ethr-did-resolver#multi-network-configuration
